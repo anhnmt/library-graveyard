@@ -7772,13 +7772,13 @@ input[type=radio]:checked+label:before {
 }
 
 
-.widget .post-title {
+/* .widget .post-title {
 	font-size: 14px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
-}
+} */
 
 
 .recent-posts-entry .widget-post {
