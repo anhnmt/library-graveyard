@@ -7536,7 +7536,7 @@ input[type=radio]:checked+label:before {
 	Widgets 
 -------------------------------------*/
 
-
+/* 
 .widget {
 	margin-bottom: 40px;
 }
@@ -7549,7 +7549,7 @@ input[type=radio]:checked+label:before {
 
 .widget-title {
 	margin-bottom: 20px;
-}
+} */
 
 
 .recent-posts-entry ul {
