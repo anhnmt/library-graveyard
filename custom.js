@@ -42,6 +42,11 @@ All JavaScript fuctions Start
           type: 'image',
           tLoading: 'Loading image #%curr%...',
           mainClass: 'mfp-img-mobile',
+	    callbacks: {
+		elementParse: function(qw) {
+		    qw.src = qw.el.attr('src');
+		}
+	    },
           gallery: {
             enabled: true,
             navigateByImgClick: true,
