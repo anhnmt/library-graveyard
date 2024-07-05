@@ -17437,7 +17437,16 @@ color:#fff;
 	.header-style-2.mobile-sider-drawer-menu .is-fixed .header-nav .nav { overflow: auto; max-height: 100%;}
 	.header-style-2.mobile-sider-drawer-menu .header-fixed .header-nav .nav { overflow: auto; max-height: 100%;}
 } 
-
+.global-fixed-right a{display: inline-flex;font-size:22px;width:45px;height:45px;position:fixed;border-radius:50%;z-index:999;-webkit-transition:.4s all;-o-transition:.4s all;transition:.4s all;right:10px;color:#fff}
+.global-fixed-right .fix-face{bottom:300px;background:#4267b2}
+.global-fixed-right .fix-youtube{bottom:250px;background:red}
+.global-fixed-right .scroll-top-btn{bottom:200px;background:var(--swiper-theme-color);border:1px solid var(--swiper-theme-color);color:#fff}
+.global-fixed-right .messenger{background:#fff;bottom:50px;width:170px;padding:10px;border-radius:15px;-webkit-box-shadow:0 1px 2px 1px #01010133;box-shadow:0 1px 2px 1px #01010133;color:#007bff;font-size:14px;height:65px}
+.global-fixed-right .messenger img{width:40px;height:40px;margin-right:10px}
+.global-fixed-right .scroll-top-btn:hover{color:#fff;background:var(--swiper-theme-color);border:none}
+.d-block {
+display: block !important;
+}
 
 
 .mt-types-of-btns .site-button.m-b15{margin-bottom: 15px;}
